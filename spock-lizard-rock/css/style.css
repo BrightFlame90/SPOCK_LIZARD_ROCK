@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  background-image: url('http://wallpapercave.com/wp/H8gpKMg.jpg');
+  /*background-position: ;*/
+  background-size: cover;
+}
+
+button {
+  font-family: 'Space Mono', monospace;
+  background-color: white;
+  border: 2px solid #f6201d;
+  cursor: pointer;
+  color: #f6201d;
+  transition: all 0.2s ease;
+  padding: 6px 12px;
+  outline: none !important;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+p span {
+  font-weight: bold;
+}
+
+p.result  {
+  background-color: #f6201d;
+  color: white;
+  padding: 8px 12px;
+  height: 34px;
+  border-radius: 4px;
+}
+
+button:last-of-type {
+  width: 100%;
+  clear: left;
+  margin-top: 20px;
+  display: block;
+}
+
+button:hover {
+  background-color: ;
+  color: white;
+}
+
+.game {
+  background-color: #dadada;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+}
+
+
+/*How to get started
+Construct a index.html to be your starting point on this project. Add your necessary HTML tags, including script and link tags to link to your JavaScript and CSS respectively.
+Before you even start working with JavaScript, construct the gameboard. The gameboard page should include the 3x3 grid, and at minimum a reset button. Using id and class on clickable elements will help you wire this up in JavaScript afterwards.
+JavaScript portion will be next:
+Locate the element first to use it within your app. Think about using document.getElementById, document.getElementsByClassName or something similar to locate your target elements. Try this in your console to make sure your selection works.
+After finding the elements, start writing logic to listen for click events on those elements.
+You will also need a variable to keep track of moves. As this will be used to indicate whether or not to draw an X or an O.*/
